@@ -1,4 +1,3 @@
-<script>
 function calculateMinCost() {
   //your code here
 	var str=document.getElementById('rope-lengths').value;
@@ -29,8 +28,7 @@ function calculateMinCost() {
     for(let i=0;i<crr.length;i++){
     count+=crr[i];
     }
-console.log(count);	document.getElementById('result').innerHTML=count;
+console.log(count);
+	document.getElementById('result').innerHTML=count;
   
 } 
-
-</script>
